@@ -68,6 +68,13 @@ export default function Layout() {
             <X size={24} />
           </button>
         </div>
+
+        <div className="px-4 mb-2">
+          <div className="bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800/50 rounded-xl p-3 text-xs text-amber-800 dark:text-amber-400">
+            <strong>Uwaga:</strong> Dane przechowywane są roboczo w przeglądarce. Pamiętaj o regularnym eksporcie kopii zapasowej.
+          </div>
+        </div>
+
         <nav className="flex-1 px-4 space-y-2 mt-4">
           {navItems.map(item => (
             <button
