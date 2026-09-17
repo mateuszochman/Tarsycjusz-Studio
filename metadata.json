@@ -1,0 +1,6 @@
+{
+  "name": "Tarsycjusz Studio",
+  "description": "Prywatna aplikacja webowa do przeglądania, kontroli i pakowania treści katolickiego modlitewnika dla dzieci.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
